@@ -1,0 +1,57 @@
+body{
+    background: #FDFDFD;
+    font-family: 'Poppins', sans-serif;
+  }
+  .container{
+    width: 90%;
+  }
+  .txt-wrap{
+    max-width: 606px;
+  }
+  .btn-primary{
+    background: linear-gradient(92.37deg, #FDA305 -4.92%, #FD7C05 101.06%);
+    border-radius: 10px;
+    padding: 12px 70px;
+  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  
+  /* font  */
+  h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 122.5%;
+    text-transform: capitalize;
+  }
+  h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+  }
+  h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+  }
+  
+  p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+
+  .swiper {
+    width: 600px;
+    height: 300px;
+  }
