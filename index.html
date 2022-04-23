@@ -3,15 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
   <link href="/assets/css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/alter.css">
-  <link
-  rel="stylesheet"
-  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
-/>
+  
 </head>
 <body>
-    <section>
+    <section class="relative">
         <div class="container">
             <div class="navbar pt-14">
             <div class="logo-wrap">
@@ -66,25 +65,69 @@
         </div>
 
         <!-- Slider main container -->
-<div class="swiper">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-      <!-- Slides -->
-      <div class="swiper-slide">Slide 1</div>
-      <div class="swiper-slide">Slide 2</div>
-      <div class="swiper-slide">Slide 3</div>
-      ...
-    </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
-  
-    <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-  
-    <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar"></div>
-  </div>
+        <div class="slide-wrapper flex absolute right-0 top-0">
+            <div class="slider-container mr-6">
+                <div class="swiper0 swiper-freemode">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                        <div class="swiper-slide mb-6">
+                            <div class="img-placeholder bg-gradient-to-r from-pop-200 to-pop-200"></div>
+                        </div>
+                        <div class="swiper-slide mb-6">
+                            <div class="img-placeholder bg-gradient-to-r from-pop-400 to-pop-400"></div>
+                        </div>
+                        <div class="swiper-slide mb-6">
+                            <div class="img-placeholder bg-gradient-to-r from-pop-200 to-pop-200"></div>
+                        </div>
+                        <div class="swiper-slide mb-6">
+                            <div class="img-placeholder bg-gradient-to-r from-pop-400 to-pop-400"></div>
+                        </div>
+                        <div class="swiper-slide mb-6">
+                            <div class="img-placeholder bg-gradient-to-r from-pop-200 to-pop-200"></div>
+                        </div>
+                        <div class="swiper-slide mb-6">
+                            <div class="img-placeholder bg-gradient-to-r from-pop-400 to-pop-400"></div>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <!-- <div class="swiper-pagination"></div> -->
+                
+                    <!-- If we need navigation buttons -->
+                    <!-- <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div> -->
+                
+                    <!-- If we need scrollbar -->
+                    <!-- <div class="swiper-scrollbar"></div> -->
+                </div>
+            </div>
+            <div class="slider-container">
+                <div class="swiper1 swiper-freemode">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide mb-6">
+                            <div class="img-placeholder bg-gradient-to-r from-pop-200 to-pop-200"></div>
+                        </div>
+                        <div class="swiper-slide mb-6">
+                            <div class="img-placeholder bg-gradient-to-r from-pop-400 to-pop-400"></div>
+                        </div>
+                        <div class="swiper-slide mb-6">
+                            <div class="img-placeholder bg-gradient-to-r from-pop-200 to-pop-200"></div>
+                        </div>
+                        <div class="swiper-slide mb-6">
+                            <div class="img-placeholder bg-gradient-to-r from-pop-400 to-pop-400"></div>
+                        </div>
+                        <div class="swiper-slide mb-6">
+                            <div class="img-placeholder bg-gradient-to-r from-pop-200 to-pop-200"></div>
+                        </div>
+                        <div class="swiper-slide mb-6">
+                            <div class="img-placeholder bg-gradient-to-r from-pop-400 to-pop-400"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
     </section>
 
 

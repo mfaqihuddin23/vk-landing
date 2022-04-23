@@ -51,7 +51,35 @@ body{
   }
 
 
-  .swiper {
-    width: 600px;
-    height: 300px;
+  .slide-wrapper{
+    max-height: 900px;
+    overflow: hidden;
+  }
+  .swiper0 {
+    width: 320px;
+    height: 900px;
+  }
+  .swiper1 {
+    width: 320px;
+    height: 900px;
+  }
+  .swiper-freemode > .swiper-wrapper{
+    transition-timing-function : linear;
+  }
+  .swiper-slide{
+    overflow: hidden;
+    height: fit-content;
+  }
+
+  .img-placeholder{
+    /* background: linear-gradient(0deg, #FDA403, #FDA403), url(image.png); */
+    box-shadow: 20px 10px 40px rgba(197, 156, 90, 0.1);
+    border-radius: 15px;
+
+    width: 320px;
+    height: 303px;
+  }
+
+  section{
+    max-width: 1440px;
   }

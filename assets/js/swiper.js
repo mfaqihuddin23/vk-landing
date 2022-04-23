@@ -1,21 +1,33 @@
-const swiper = new Swiper('.swiper', {
+var swiper0 = new Swiper('.swiper0', {
     // Optional parameters
     direction: 'vertical',
     loop: true,
-  
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
+    autoplay: {
+      delay: 1,
+      disableOnInteraction: false
     },
+    slidesPerView: 'auto',
+    speed: 5000,
+    // grabCursor: true,
+    // mousewheelControl: true,
+    // keyboardControl: true,
   
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
+    
+});
+
+var swiper1 = new Swiper('.swiper1', {
+  // Optional parameters
+  direction: 'vertical',
+  loop: true,
+  autoplay: {
+    delay: 1,
+    reverseDirection: true,
+    disableOnInteraction: false
+  },
   
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
-  });
+  slidesPerView: 'auto',
+  speed: 5000,
+  // grabCursor: true,
+  // mousewheelControl: true,
+  // keyboardControl: true,
+});
