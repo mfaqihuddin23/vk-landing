@@ -54,6 +54,7 @@ body{
   .slide-wrapper{
     max-height: 900px;
     overflow: hidden;
+    max-width: 600px;
   }
   .swiper0 {
     width: 320px;
@@ -78,8 +79,4 @@ body{
 
     width: 320px;
     height: 303px;
-  }
-
-  section{
-    max-width: 1440px;
   }
