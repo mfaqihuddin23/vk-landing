@@ -7,7 +7,7 @@ var swiper0 = new Swiper('.swiper0', {
       disableOnInteraction: false
     },
     slidesPerView: 'auto',
-    speed: 5000,
+    speed: 10000,
     // grabCursor: true,
     // mousewheelControl: true,
     // keyboardControl: true,
@@ -26,7 +26,7 @@ var swiper1 = new Swiper('.swiper1', {
   },
   
   slidesPerView: 'auto',
-  speed: 5000,
+  speed: 10000,
   // grabCursor: true,
   // mousewheelControl: true,
   // keyboardControl: true,
